@@ -1,0 +1,31 @@
+{
+  "name": "ramiawadallah/neste",
+  "type": "library",
+  "description": "Neste is an implementation of the Nested Set pattern for Eloquent models.",
+  "keywords": ["nested set", "laravel", "laravel 4", "laravel 5", "laravel 6","eloquent", "database"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rami Awadallah",
+      "email": "rami.moh.awadallah@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/console": "5.*||6.*",
+    "illuminate/database": "5.*||6.*",
+    "illuminate/events": "5.*||6.*",
+    "illuminate/filesystem": "5.*||6.*",
+    "illuminate/support": "5.*||6.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0",
+    "mockery/mockery": "~0.9",
+    "d11wtq/boris": "~1.0.10"
+  },
+  "autoload": {
+    "psr-0": {
+      "Neste": "src/"
+    }
+  }
+}
