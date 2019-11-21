@@ -1,4 +1,4 @@
-# Contributing to Neste
+# Contributing to Baum
 
 Thinking of contributing? Maybe you've found some nasty bug? That's great news!
 
@@ -14,14 +14,14 @@ The more information you provide, the easier it is to validate that there is a b
 
 ## Requesting a Feature
 
-1. Search [Issues](https://github.com/ramiawadallah/neste/issues) for similar feature requests. It's possible somebody has already asked for this feature or provided a pull request that's still in discussion.
+1. Search [Issues](https://github.com/etrepat/baum/issues) for similar feature requests. It's possible somebody has already asked for this feature or provided a pull request that's still in discussion.
 2. Provide a clear and detailed explanation of the feature you want and why it's important to add.
 3. If the feature is complex, consider writing some initial documentation for it. This will help everyone understand its use cases and if it is finally implemented it will serve as the base for its documentation.
 4. Attempt a Pull Request. If you're at all able, start writing some code. Please understand that this is an open source side-project, so the time devoted to it is quite limited. If you can write some code then that will speed the process greatly.
 
 ## Pull Requests
 
-1. Fork & clone the project: `git clone git@github.com:your-username/neste.git`.
+1. Fork & clone the project: `git clone git@github.com:your-username/baum.git`.
 2. Run the tests and make sure that they pass with your setup: `phpunit`.
 3. Create your bugfix/feature branch and code away your changes. Add tests for your changes. If you're adding functionality or fixing a bug, tests make it easier for the merge to be possible. Also, they make sure I don't break your changes incidentally.
 4. Make sure all the tests still pass: `phpunit`.
